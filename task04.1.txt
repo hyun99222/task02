@@ -1,0 +1,18 @@
+Script started on Mon 01 Jun 2020 08:48:42 AM EDT
+[06/01/20]seed@VM:~$ iptav[Kbles[K[K[K[K[K[K[K[Ksud [Ko iptables [K-L[K[K -L
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+DROP       tcp  --  10.0.2.6             10.0.2.15            tcp dpt:telnet
+[06/01/20]seed@VM:~$ [K[06/01/20]seed@VM:~$ telnet 10.0.2.15
+Trying 10.0.2.15...
+^C
+[06/01/20]seed@VM:~$ exot[K[Kit
+exit
+
+Script done on Mon 01 Jun 2020 08:50:31 AM EDT

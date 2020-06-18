@@ -1,0 +1,19 @@
+Script started on Mon 15 Jun 2020 08:07:02 AM EDT
+[06/15/20]seed@VM:~$ sudo iptables -A OUTPUT -s 10.0.2.6 t [A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C- p tcp --dport 23 -j FROP[K[K[K[KDROP
+[06/15/20]seed@VM:~$ sudo iptables -A OUTPUT -s 10.0.2.6 - d 157.240.1[K215.25[K[K35
+[06/15/20]seed@VM:~$ sudo t[Kiptables -L
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+DROP       tcp  --  10.0.2.6             anywhere             tcp dpt:telnet
+           all  --  10.0.2.6             edge-star-mini-shv-01-ssn1.facebook.com 
+[06/15/20]seed@VM:~$ d[Kexit
+exit
+
+Script done on Mon 15 Jun 2020 08:08:56 AM EDT

@@ -1,0 +1,30 @@
+Script started on Sat 16 May 2020 11:24:32 AM EDT
+[05/16/20]seed@VM:~$ ping 2[K10.0.2.15
+PING 10.0.2.15 (10.0.2.15) 56(84) bytes of data.
+64 bytes from 10.0.2.15: icmp_seq=1 ttl=64 time=2.79 ms
+64 bytes from 10.0.2.15: icmp_seq=2 ttl=64 time=1.14 ms
+64 bytes from 10.0.2.15: icmp_seq=3 ttl=64 time=0.462 ms
+64 bytes from 10.0.2.15: icmp_seq=4 ttl=64 time=1.20 ms
+^C
+--- 10.0.2.15 ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3035ms
+rtt min/avg/max/mdev = 0.462/1.400/2.791/0.854 ms
+[05/16/20]seed@VM:~$ arp -n
+Address                  HWtype  HWaddress           Flags Mask            Iface
+10.0.2.7                 ether   08:00:27:71:a6:61   C                     enp0s3
+10.0.2.15                ether   08:00:27:bd:4d:6b   C                     enp0s3
+10.0.2.3                 ether   08:00:27:5d:6c:e5   C                     enp0s3
+10.0.2.8                         (incomplete)                              enp0s3
+10.0.2.1                 ether   52:54:00:12:35:00   C                     enp0s3
+[05/16/20]seed@VM:~$ sudo arp -s 10.0.2.15 08:00:27:bd:4d:6b
+[05/16/20]seed@VM:~$ arp -n
+Address                  HWtype  HWaddress           Flags Mask            Iface
+10.0.2.7                 ether   08:00:27:71:a6:61   C                     enp0s3
+10.0.2.15                ether   08:00:27:bd:4d:6b   CM                    enp0s3
+10.0.2.3                 ether   08:00:27:5d:6c:e5   C                     enp0s3
+10.0.2.8                         (incomplete)                              enp0s3
+10.0.2.1                 ether   52:54:00:12:35:00   C                     enp0s3
+[05/16/20]seed@VM:~$ exit
+exit
+
+Script done on Sat 16 May 2020 11:26:01 AM EDT

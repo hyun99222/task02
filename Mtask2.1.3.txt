@@ -1,0 +1,11 @@
+Script started on Sat 16 May 2020 01:12:26 PM EDT
+[05/16/20]seed@VM:~$ cd /tmp
+[05/16/20]seed@VM:/tmp$ ls
+config-err-JGOq6V
+[0m[01;34msystemd-private-6f469caee56a4dc8abfaf743098746a6-colord.service-bu37kr[0m
+[01;34msystemd-private-6f469caee56a4dc8abfaf743098746a6-rtkit-daemon.service-V1UZHO[0m
+unity_support_test.1
+[05/16/20]seed@VM:/tmp$ exit
+exit
+
+Script done on Sat 16 May 2020 01:12:49 PM EDT

@@ -1,0 +1,16 @@
+Script started on Mon 01 Jun 2020 09:21:33 AM EDT
+[06/01/20]seed@VM:~$ sudo iptables -L
+Chain INPUT (policy ACCEPT)
+target     prot opt source               destination         
+DROP       tcp  --  10.0.2.15            10.0.2.6             tcp dpt:telnet
+
+Chain FORWARD (policy ACCEPT)
+target     prot opt source               destination         
+
+Chain OUTPUT (policy ACCEPT)
+target     prot opt source               destination         
+DROP       tcp  --  10.0.2.6             10.0.2.15            tcp dpt:telnet
+[06/01/20]seed@VM:~$ exit
+exit
+
+Script done on Mon 01 Jun 2020 09:21:57 AM EDT

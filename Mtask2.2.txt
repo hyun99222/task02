@@ -1,0 +1,12 @@
+Script started on Sat 16 May 2020 12:50:11 PM EDT
+[05/16/20]seed@VM:~$ cd /tmp
+[05/16/20]seed@VM:/tmp$ ls -l
+total 8
+-rw------- 1 seed seed    0 May 16 12:47 config-err-JGOq6V
+drwx------ 3 root root 4096 May 16 12:47 [0m[01;34msystemd-private-6f469caee56a4dc8abfaf743098746a6-colord.service-bu37kr[0m[K
+drwx------ 3 root root 4096 May 16 12:47 [01;34msystemd-private-6f469caee56a4dc8abfaf743098746a6-rtkit-daemon.service-V1UZHO[0m[K
+-rw-rw-r-- 1 seed seed    0 May 16 12:47 unity_support_test.1
+[05/16/20]seed@VM:/tmp$ exit
+exit
+
+Script done on Sat 16 May 2020 12:50:35 PM EDT

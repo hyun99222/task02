@@ -1,0 +1,24 @@
+Script started on Tue 05 May 2020 07:52:33 AM EDT
+[05/05/20]seed@VM:~$ sud[K[K[Kgcc-[K -o task2.[K task2.c -;[Klpcap
+[05/05/20]seed@VM:~$ sudo ./task2
+   From : 10.0.2.6
+   To : 8.8.8.8
+   From : 8.8.8.8
+   To : 10.0.2.6
+   From : 10.0.2.6
+   To : 8.8.8.8
+   From : 8.8.8.8
+   To : 10.0.2.6
+   From : 10.0.2.6
+   To : 8.8.8.8
+   From : 8.8.8.8
+   To : 10.0.2.6
+   From : 10.0.2.6
+   To : 8.8.8.8
+   From : 8.8.8.8
+   To : 10.0.2.6
+^C
+[05/05/20]seed@VM:~$ exit
+exit
+
+Script done on Tue 05 May 2020 07:53:09 AM EDT

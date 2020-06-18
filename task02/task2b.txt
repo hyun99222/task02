@@ -1,0 +1,16 @@
+Script started on Tue 05 May 2020 08:06:33 AM EDT
+[05/05/20]seed@VM:~$ gxx[K[Kcc-[K -o task2.[K task2.c -lpcap
+[05/05/20]seed@VM:~$ sudo ./sniff[K[K[K[K[Ktask2
+   From : 10.0.2.6
+   To : 8.8.8.8
+   From : 10.0.2.6
+   To : 8.8.8.8
+   From : 10.0.2.6
+   To : 8.8.8.8
+   From : 10.0.2.6
+   To : 8.8.8.8
+^C
+[05/05/20]seed@VM:~$ sc[K[Kr[Kexit
+exit
+
+Script done on Tue 05 May 2020 08:07:51 AM EDT

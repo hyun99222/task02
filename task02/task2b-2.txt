@@ -1,0 +1,16 @@
+Script started on Tue 05 May 2020 08:09:03 AM EDT
+[05/05/20]seed@VM:~$ gcc -o task2 task2.c -lpcap
+[05/05/20]seed@VM:~$ sudo ./task2
+   From : 10.0.2.6
+   To : 8.8.8.8
+   From : 10.0.2.6
+   To : 8.8.8.8
+   From : 10.0.2.6
+   To : 8.8.8.8
+   From : 10.0.2.6
+   To : 8.8.8.8
+^C
+[05/05/20]seed@VM:~$ exit
+exit
+
+Script done on Tue 05 May 2020 08:13:56 AM EDT

@@ -1,0 +1,20 @@
+Script started on Tue 05 May 2020 11:47:59 AM EDT
+[05/05/20]seed@VM:~$ gcc -o task2.3 task2.3 [K.c
+/tmp/ccaINJ7g.o: In function `main':
+task2.3.c:(.text+0x3c5): undefined reference to `pcap_open_live'
+task2.3.c:(.text+0x3f2): undefined reference to `pcap_compile'
+task2.3.c:(.text+0x40a): undefined reference to `pcap_setfilter'
+task2.3.c:(.text+0x421): undefined reference to `pcap_loop'
+task2.3.c:(.text+0x432): undefined reference to `pcap_close'
+collect2: error: ld returned 1 exit status
+[05/05/20]seed@VM:~$ t[Kgcc-[K -o task2.3 task2.3 [K.c -lpcap
+[05/05/20]seed@VM:~$ sudo ./task2.3
+ Packet Sent from Attacker to host:10.0.2.6
+ Packet Sent from Attacker to host:10.0.2.6
+ Packet Sent from Attacker to host:10.0.2.6
+ Packet Sent from Attacker to host:10.0.2.6
+^C
+[05/05/20]seed@VM:~$ exit
+exit
+
+Script done on Tue 05 May 2020 11:50:17 AM EDT

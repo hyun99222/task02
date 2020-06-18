@@ -1,0 +1,19 @@
+Script started on Tue 05 May 2020 11:49:13 AM EDT
+[05/05/20]seed@VM:~$ ping 8.8.8.8
+PING 8.8.8.8 (8.8.8.8) 56(84) bytes of data.
+64 bytes from 8.8.8.8: icmp_seq=1 ttl=52 time=43.1 ms
+8 bytes from 8.8.8.8: icmp_seq=1 ttl=50 (truncated)
+64 bytes from 8.8.8.8: icmp_seq=2 ttl=52 time=43.0 ms
+8 bytes from 8.8.8.8: icmp_seq=2 ttl=50 (truncated)
+64 bytes from 8.8.8.8: icmp_seq=3 ttl=52 time=41.5 ms
+8 bytes from 8.8.8.8: icmp_seq=3 ttl=50 (truncated)
+64 bytes from 8.8.8.8: icmp_seq=4 ttl=52 time=41.1 ms
+8 bytes from 8.8.8.8: icmp_seq=4 ttl=50 (truncated)
+^C
+--- 8.8.8.8 ping statistics ---
+4 packets transmitted, 4 received, +4 duplicates, 0% packet loss, time 3001ms
+rtt min/avg/max/mdev = 41.149/21.105/43.137/21.115 ms
+[05/05/20]seed@VM:~$ exit
+exit
+
+Script done on Tue 05 May 2020 11:50:43 AM EDT

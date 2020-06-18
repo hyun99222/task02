@@ -1,0 +1,49 @@
+Script started on Fri 08 May 2020 01:24:50 AM EDT
+[05/08/20]seed@VM:~$ sudo pythin3 [K[K[K[Kon3 r[Ktraceroute1.py
+Begin emission:
+.Finished sending 1 packets.
+*
+Received 2 packets, got 1 answers, remaining 0 packets
+IP:  10.0.2.1
+Begin emission:
+Finished sending 1 packets.
+*
+Received 1 packets, got 1 answers, remaining 0 packets
+IP:  192.168.35.1
+Begin emission:
+Finished sending 1 packets.
+*
+Received 1 packets, got 1 answers, remaining 0 packets
+IP:  219.254.63.129
+Begin emission:
+Finished sending 1 packets.
+*
+Received 1 packets, got 1 answers, remaining 0 packets
+IP:  10.67.15.17
+Begin emission:
+Finished sending 1 packets.
+*
+Received 1 packets, got 1 answers, remaining 0 packets
+IP:  10.67.253.84
+Begin emission:
+Finished sending 1 packets.
+*
+Received 1 packets, got 1 answers, remaining 0 packets
+IP:  10.222.22.234
+Begin emission:
+Finished sending 1 packets.
+*
+Received 1 packets, got 1 answers, remaining 0 packets
+IP:  10.222.18.225
+Begin emission:
+Finished sending 1 packets.
+^C
+Received 0 packets, got 0 answers, remaining 1 packets
+Traceback (most recent call last):
+  File "traceroute1.py", line 11, in <module>
+    print("IP: ", reply[IP].src)
+TypeError: 'NoneType' object is not subscriptable
+[05/08/20]seed@VM:~$ exit
+exit
+
+Script done on Fri 08 May 2020 01:25:37 AM EDT
